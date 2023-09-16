@@ -9,7 +9,7 @@ class TestController extends Controller
     public function actionIndex()
     {
         return [
-            
+            'test' => 'test'
         ];
     }
 }
